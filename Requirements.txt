@@ -1,0 +1,6 @@
+Dnspython
+Motor
+Pyrogram
+Pymongo
+TgCrypto
+© 2021 GitHub, Inc.
