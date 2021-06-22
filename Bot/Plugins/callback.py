@@ -1,22 +1,3 @@
-Skip to content
-
-CrazyBotsz
-/
-Adv-Auto-Filter-Bot-V2
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
- main 
-Adv-Auto-Filter-Bot-V2/bot/plugins/callback.py
-
-AlbertEinsteinTG Fix!
- 1 contributor
-1710 lines (1344 sloc)  51.1 KB
 import re
 import time
 import asyncio
@@ -134,8 +115,7 @@ async def cb_navg(bot, update: CallbackQuery):
                 continue
             
             chat_name = y["chat_name"]
-            invite_link = y["invite_lin
-k"]
+            invite_link = y["invite_link"]
             
             if ((len(ibuttons)%2) == 0):
                 ibuttons.append(
