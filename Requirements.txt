@@ -2,5 +2,5 @@ Dnspython
 Motor
 Pyrogram
 Pymongo
+Requests 
 TgCrypto
-© 2021 GitHub, Inc.
