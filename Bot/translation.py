@@ -19,7 +19,7 @@ Now You Are All Set And Ready To Go...
 Just Send Any Text Will Try To Lookup In Channel And Provide You The Link</i>
 """
 
-    ABOUT_TEXT = """<b>➥ Name</b> : <code>Adv Auto Filter Bot</code>
+    ABOUT_TEXT = """<b>➥ Name</b> : <code>adv-filter-bot</code>
 <b>➥ Creator</b> : <b><i><a herf="https://t.me/NTG_family">NTG_family</a></i></b>
 <b>➥ Language</b> : <code>Python3</code>
 <b>➥ Library</b> : <i><a herf="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0</a></i>
