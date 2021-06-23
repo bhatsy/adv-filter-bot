@@ -1,65 +1,110 @@
-Adv Auto Filter Bot V2
- 
+# adv-filter-bot
 
-This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of Adv-Filter-Bot..
+<p align="center">
+  <a href="https://github.com/bhatsy/adv-filter-bot/stargazers">adv-filter-bot
+    <img src="https://img.shields.io/github/stars/bhatsy/adv-filter-bot?style=social">
 
-Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its MongoDB And Reply You With The Message Link As A Button
+  </a>
+  
+  <a href="https://github.com/bhatsy/adv-filter-bot/fork">
+    <img src="https://img.shields.io/github/forks/bhatsy/adv-filter-bot?label=Fork&style=social">
 
-Usage
-How To Use Me!?
+  </a>  
+</p>
 
--> Add me to any group and make me admin
--> Add me to your channel as admin with full previlages
-Bot Commands (Works Only In Groups) :
+__This Is Just An Simple Advance Auto Filter Bot Complete Rewritten Version Of [Adv-Filter-Bot](https://github.com/bhatsy/adv-filter-bot)..__
 
--> /add chat_id
-               OR               - To establish a connection of group with a channel (Bot should be admin with full previlages in both group and channel)
-     /add @Username
+__Just Sent Any Text As Query It Will Search For All Connected Chat's Files In Its MongoDB And Reply You With The Message Link As A Button__
 
--> /del chat_id
-               OR               - To delete a group's coneection with a channel (Use disable option from settigns pannel for disconnecting temporarily instead of deleteing)
-     /del @Username
 
--> /delall                - To delete all connections of a group and deletes all its file from DB
+## Usage
 
--> /settings            - To disaply a Settings Pannel Instance which can be used to tweek bot's settings accordingly
+**__How To Use Me!?__**
 
--> Channel - Button will show you all the connected chats with the group along with there index buttons correspnding to there order for furthur controls...
+* -> Add me to any group and make me admin<br>
+* -> Add me to your channel as admin with full previlages
 
--> Filter Types - Button will show you the 3 filter types available in bot... Pressing each buttons will either enable or disable them and this will take into action as soon as you use them...without the need of a restart....
+**Bot Commands (Works Only In Groups) :**
 
--> Configure - Button will help you to change no. of pages/ buttons per page/ total result without acutally editing the repo... Also it provide option to Enable/Disable showing Invite Link in each results
 
--> Status - Button will show the stats of your current group
+  * -> `/add chat_id`<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+OR
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- To establish a connection of group with a channel (Bot should be admin with full previlages in both group and channel)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`/add @Username`
 
-Pre Requisites
-->Your Bot Token From @BotFather
 
-->Your APP ID And API Harsh From Telegram or @UseTGXBot
+  * -> `/del chat_id`<br>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+OR 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- To delete a group's coneection with a channel (Use disable option from settigns pannel for disconnecting temporarily instead of deleteing)<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; `/del @Username`
 
-->Your User Session String Obtained From @PyrogramStringBot
 
-->Mongo DB URL Obtained From Mongo DB
+  * -> `/delall`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - To delete all connections of a group and deletes all its file from DB
+  
+  * -> `/settings`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -  To disaply a Settings Pannel Instance which can be used to tweek bot's settings accordingly
 
-PR's Are Very Welcome
-Deploy
+    * -> Channel - Button will show you all the connected chats with the group along with there index buttons correspnding to there order for furthur controls...
+
+    * -> Filter Types - Button will show you the 3 filter types available in bot... Pressing each buttons will either enable or disable them and this will take into action as soon as you use them...without the need of a restart....
+
+    * -> Configure - Button will help you to change no. of pages/ buttons per page/ total result without acutally editing the repo... Also it provide option to Enable/Disable  showing Invite Link in each results
+
+    * -> Status - Button will show the stats of your current group
+
+### Pre Requisites 
+------------------
+* ->__Your Bot Token From [@BotFather](http://www.telegram.dog/BotFather)__
+
+* ->__Your APP ID And API Harsh From [Telegram](http://www.my.telegram.org) or [@UseTGXBot](http://www.telegram.dog/UseTGXBot)__
+
+* ->__Your User Session String Obtained From [@PyrogramStringBot](http://www.telegram.dog/PyrogramStringBot)__
+
+* ->__Mongo DB URL Obtained From [Mongo DB](http://www.mongodb.com)__
+
+#### PR's Are Very Welcome
+
+## Deploy
 You can deploy this bot anywhere.
 
-Watch Deploying Tutorial...
+<i>**[Watch Deploying Tutorial...](https://youtu.be/KTearEPhumc)**</i>
 
-Deploy To Heroku
-Deploy To VPS
-Support
-Join Our Telegram Group For Support/Assistance And Our Channel For Updates.
+<details><summary>Deploy To Heroku</summary>
+<p>
+<br>
+<a href="https://heroku.com/deploy?template=https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot-V2/tree/main">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
+</p>
+</details>
 
-Report Bugs, Give Feature Requests There..
+<details><summary>Deploy To VPS</summary>
+<p>
+<pre>
+git clone https://github.com/bhatsy/adv-filter-bot
+cd adv-filter-bot
+pip3 install -r requirements.txt
+# Change The Vars Of bot/__init__.py File Accordingly
+python3 -m bot
+</pre>
+</p>
+</details>
+
+## Support   
+Join Our [Telegram Group](https://www.telegram.dog/@T5links) For Support/Assistance And Our [Channel](https://www.telegram.dog/@T8links) For Updates.   
+   
+Report Bugs, Give Feature Requests There..   
 Do Fork And Star The Repository If You Liked It.
 
-Disclaimer
-GNU Affero General Public License v3.0
-Licensed under GNU AGPL v3.0. Selling The Codes To Other People For Money Is Strictly Prohibited.
+## Disclaimer
+[![GNU Affero General Public License v3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
+Licensed under [GNU AGPL v3.0.](https://github.com/bhatsy/adv-filter-bot/blob/main/LICENSE)
+Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 
-Credits
-Thanks To Dan For His Awsome Libary
-Thanks To SpEcHiDe For His Awesome DeleteMessagesRoBot
-Thanks To Me 👀
+
+## Credits
+
+ - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
+ - Thanks To SpEcHiDe For His Awesome [DeleteMessagesRoBot](https://github.com/SpEcHiDe/DeleteMessagesRoBot)
+ - [Thanks To Me 👀](https://github.com/bhatsy)
